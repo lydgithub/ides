@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'fatih/vim-go'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -52,3 +53,5 @@ set nu
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+autocmd vimenter * NERDTree
